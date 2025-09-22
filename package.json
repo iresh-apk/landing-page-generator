@@ -1,0 +1,48 @@
+{
+  "name": "landing-page-generator",
+  "version": "1.0.0",
+  "description": "\ud83d\ude80 SaaS Landing Page Generator - Create professional sales pages with drag-and-drop editor",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "@tailwindcss/forms": "^0.5.7",
+    "lucide-react": "^0.294.0",
+    "framer-motion": "^10.16.5",
+    "react-colorful": "^5.6.1",
+    "html2canvas": "^1.4.1",
+    "stripe": "^14.7.0",
+    "next-auth": "^4.24.5",
+    "@prisma/client": "^5.6.0",
+    "prisma": "^5.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.54.0",
+    "eslint-config-next": "14.0.3",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.2.2"
+  },
+  "keywords": [
+    "landing-page",
+    "generator",
+    "saas",
+    "drag-and-drop",
+    "nextjs"
+  ],
+  "author": "Landing Page Generator",
+  "license": "MIT"
+}
